@@ -1,0 +1,83 @@
+img{
+    width: 100%;
+}
+header{
+    border-bottom: 1px solid black;
+    
+ }
+ .header{
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    width: 85%;
+    align-items: center;
+    padding: 15px;
+}
+
+.header-nav a{
+    margin: 5px;
+}
+.main{
+    margin: auto;
+    width: 85%;
+}
+.main-content{
+    display: flex;
+}
+.main-content-sidebar{
+    width: 25%;
+    padding: 5px;
+}
+.main-content-sidebar-nav a{
+    display: block;
+    margin: 5px;
+}
+.main-content-sidebar-card{
+    border: 1px solid rgba(0, 0, 0, 0.425);
+    border-radius: 5px;
+    margin: 5px;
+}
+.sidebar-card-text{
+    padding: 5px;
+}
+.sidebar-card-date{
+    padding: 5px;
+    text-align: right;
+}
+.main-content-product{
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+.main-content-product-card{
+    border: 1px solid rgba(0, 0, 0, 0.425);
+    border-radius: 5px;
+    margin: 5px;
+}
+.product-card-text{
+    padding: 5px;
+}  
+h2{
+    text-align: center;
+}
+.main-form-fname input{
+    width: 50%;
+}
+.main-form-lname input{
+    width: 50%;
+}
+textarea{
+    width: 100%;
+}
+.main-form-fname label{
+    display: block;
+}
+.main-form-lname label{
+    display: block;
+}
+.footer{
+    text-align: center;
+}
+footer{
+    border-top: 1px solid black;
+}
