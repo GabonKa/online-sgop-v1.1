@@ -1,6 +1,9 @@
 img{
     width: 100%;
 }
+body{
+    font-family: 'Open Sans', sans-serif;
+}
 header{
     border-bottom: 1px solid black;
     
